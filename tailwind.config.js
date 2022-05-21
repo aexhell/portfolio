@@ -16,7 +16,7 @@ module.exports = {
         midnight: {
           100: '#241F2C',
           150: '#272130',
-          200: '#2d2638',
+          200: '#2a2334',
           300: '#433B50',
           400: '#635676',
           500: '#8875A5',
@@ -28,7 +28,7 @@ module.exports = {
         }
       },
       fontFamily: {
-        sans: ['"IBM Plex Mono"', 'Fira Code', 'sans-serif']
+        sans: ['"Inter"', 'Public Sans', 'sans-serif']
       }
     }
   },

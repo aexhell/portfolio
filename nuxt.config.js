@@ -39,7 +39,8 @@ export default {
   components: true,
   buildModules: [
     '@nuxt/typescript-build',
-    '@nuxtjs/tailwindcss'
+    '@nuxtjs/tailwindcss',
+    '@nuxt-hero-icons/solid/nuxt'
   ],
   modules: [
     '@nuxtjs/axios',
