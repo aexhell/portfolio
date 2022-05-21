@@ -1,6 +1,5 @@
 <template>
-  <div id="0x000007__mount">
-    <Topbar />
+  <div id="0xz27__mount">
     <Nuxt />
   </div>
 </template>

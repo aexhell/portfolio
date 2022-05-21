@@ -11,12 +11,16 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'aexhell. front-end developer. reach for the moon.' },
-      { name: 'og:site_name', content: 'aexhell.' },
-      { property: 'og:description', content: 'aexhell. front-end developer. reach for the moon.' },
+      { name: 'og:site_name', content: 'aexhell\'s works.' },
+      { name: 'og:title', content: 'phobos.' },
+      { name: 'theme-color', content: '#ae9dce' },
+      { property: 'og:description', content: '16-yo front-end developer and UX designer. reach for the moon.' },
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap' }
+      { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
+      { rel: 'preconnect', href: 'https://fonts.googleapis.com', crossorigin: '' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap' }
     ]
   },
   globalName: 'phobos',
